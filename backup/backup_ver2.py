@@ -4,7 +4,7 @@ import time
 # 1. The files and directories to be backed up are
 # specified in a list.
 # Example on Windows:
-source = ['"C:\\My Documents"']
+source = r'C:\My Documents'
 # Example on Mac OS X and Linux:
 # source = ['/Users/swa/notes']
 # Notice we have to use double quotes inside a string
@@ -14,7 +14,7 @@ source = ['"C:\\My Documents"']
 # 2. The backup must be stored in a 
 # main backup directory
 # Example on Windows:
-target_dir = 'E:\\Backup'
+target_dir = r'E:\Backup'
 # Example on Mac OS X and Linux:
 # target_dir = '/Users/swa/backup'
 # Remember to change this to which folder you will be using
